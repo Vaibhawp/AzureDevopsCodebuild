@@ -1,0 +1,12 @@
+1-      Create the source code
+2-      Create the buildspec file
+3-      Create two S3 buckets(Input & Output)
+4-      Compress SSource Code(zip MessageUtil.zip pom.xlm buildspec.yml src/)
+5-      Upload complress code "MessageUtil.zip" into Input S3 Bucket (aws s3 cp MessageUtil.zip s3://{bucket-name})
+6-      Create Build Project(Source S3 bucket)
+7-      Show Default created IAM role for BuildProject
+8-      Run Build Project
+9-      Show/View Summarized Logs/State/Phases/Cloudwatch
+10-     View the Artifact Store in other S3 Bucket(Output Bucket)
+11-     Configured Trigger Notification on Build(It will create Event Rule and update SNS policy) 
+12-     Delete All resoiurces
